@@ -2,6 +2,7 @@
 // Attribute
 //==========
 
+// テーマファイルの設定
 :pdf-style: my-theme.yml
 
 //===========
