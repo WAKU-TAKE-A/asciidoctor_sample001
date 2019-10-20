@@ -19,23 +19,35 @@ font:
       bold: mplus1p-regular-fallback.ttf
       italic: mplus1p-regular-fallback.ttf
       bold_italic: mplus1p-regular-fallback.ttf
+    # Uncomment only installed fonts.
     GenYoMin:
-      normal: GenYoMinJP-Regular.ttf
-      bold: GenYoMinJP-Bold.ttf
-      italic: GenYoMinJP-Regular.ttf
-      bold_italic: GenYoMinJP-Bold.ttf
-    GenShinGothic:
-      normal: GenShinGothic-Normal.ttf
-      bold: GenShinGothic-Bold.ttf
-      italic: GenShinGothic-Normal.ttf
-      bold_italic: GenShinGothic-Bold.ttf
-    GenShinGothicP:
-      normal: GenShinGothic-P-Normal.ttf
-      bold: GenShinGothic-P-Bold.ttf
-      italic: GenShinGothic-P-Normal.ttf
-      bold_italic: GenShinGothic-P-Bold.ttf
-  fallbacks:
-    - GenYoMin
+       normal: GenYoMinJP-Regular.ttf
+       bold: GenYoMinJP-Bold.ttf
+       italic: GenYoMinJP-Regular.ttf
+       bold_italic: GenYoMinJP-Bold.ttf
+    # GenShinGothic:
+    #   normal: GenShinGothic-Normal.ttf
+    #   bold: GenShinGothic-Bold.ttf
+    #   italic: GenShinGothic-Normal.ttf
+    #   bold_italic: GenShinGothic-Bold.ttf
+    # GenShinGothicP:
+    #   normal: GenShinGothic-P-Normal.ttf
+    #   bold: GenShinGothic-P-Bold.ttf
+    #   italic: GenShinGothic-P-Normal.ttf
+    #   bold_italic: GenShinGothic-P-Bold.ttf
+    # Mplus:
+    #   normal: mplus-1p-light.ttf
+    #   bold: mplus-1p-bold.ttf
+    #   italic: mplus-1p-light.ttf
+    #   bold_italic: mplus-1p-bold.ttf
+    # RictyDiminished:
+    #   normal: RictyDiminished-Regular.ttf
+    #   bold: RictyDiminished-Bold.ttf
+    #   italic: RictyDiminished-Oblique.ttf
+    #   bold_italic: RictyDiminished-BoldOblique.ttf
+fallbacks:
+    - M+ 1p Fallback
+    # - GenShinGothic
 page:
   background_color: ffffff
   layout: portrait
@@ -87,7 +99,7 @@ link:
 # literal is currently used for inline monospaced in prose and table cells
 literal:
   font_color: b12146
-  font_family: M+ 1mn
+  font_family: $base_font_family
 menu_caret_content: " <font size=\"1.15em\"><color rgb=\"b12146\">\u203a</color></font> "
 heading:
   align: left
@@ -188,7 +200,7 @@ code:
   border_radius: $base_border_radius
   border_width: 0.75
 conum:
-  font_family: M+ 1mn
+  font_family: $base_font_family
   font_color: $literal_font_color
   font_size: $base_font_size
   line_height: 4 / 3

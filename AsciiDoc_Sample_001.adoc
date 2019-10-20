@@ -1,0 +1,47 @@
+//==========
+// 属性(Attribute)
+//==========
+
+// 日本語の設定
+:lang: ja
+// ディレクトリやテーマファイルなどの設定
+:imagesdir: ./img
+:pdf-style: my-theme.yml
+
+//===========
+// 本文(Body)
+//===========
+
+= AsciiDocの紹介
+WAKU-TAKE-A
+
+AsciiDocについて。
+
+== 1st Section
+
+* item 1
+* item 2
+
+[source, ruby]
+----
+puts "ハロー, ワールド!"
+----
+
+== 2nd Section
+
+image:lena.jpg[lena, 128] inline
+
+image::lena.jpg[lena, 128]
+block
+
+== 3th Section
+
+通常：ABC, 123, あいう, 漢字
+
+太字：**ABC, 123, あいう, 漢字**
+
+斜体：__ABC, 123, あいう, 漢字__
+
+太字斜体：**__ABC, 123, あいう, 漢字__**
+
+AsciiDoc_Sample終わり
