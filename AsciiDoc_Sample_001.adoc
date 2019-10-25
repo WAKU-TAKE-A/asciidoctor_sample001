@@ -2,8 +2,6 @@
 // 属性(Attribute)
 //==========
 
-// 日本語の設定
-:lang: ja
 // ディレクトリやテーマファイルなどの設定
 :imagesdir: ./img
 :pdf-style: my-theme.yml
@@ -43,5 +41,7 @@ block
 斜体：__ABC, 123, あいう, 漢字__
 
 太字斜体：**__ABC, 123, あいう, 漢字__**
+
+赤色文字： [red]#赤色の文字#
 
 AsciiDoc_Sample終わり
