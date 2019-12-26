@@ -22,7 +22,7 @@ AsciiDocについて。
 
 [source, ruby]
 ----
-puts "ハロー, ワールド!"
+puts "Hello World!"
 ----
 
 == 2nd Section
