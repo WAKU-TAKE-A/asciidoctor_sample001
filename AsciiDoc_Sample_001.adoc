@@ -4,7 +4,8 @@
 
 // ディレクトリやテーマファイルなどの設定
 :imagesdir: ./img
-:pdf-style: my-theme.yml
+:pdf-themesdir: ./
+:pdf-theme: my-theme.yml
 
 //===========
 // 本文(Body)
